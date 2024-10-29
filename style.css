@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  background-position-y: -80px;
+  font-size: 16px;
+}
+
+#wapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-login {
+  max-width: 400px;
+  background: white;
+  flex-grow: 1;
+  padding: 30vh 30vh;
+}
+.form-heading {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-group {
+  border-bottom: 1px solid #fff;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.form-input {
+  background: rgb(238, 238, 238);
+  border: 0;
+  border-radius: 3px;
+  padding: 6px 10px;
+  padding-right: 30px;
+  margin-top: 5px;
+}
+.eye i {
+  position: absolute;
+  right: 160px;
+  top: 70%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.form-submit {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  width: 40%;
+  padding: 7px 10px;
+  border-radius: 15px;
+  transition: 0.25s ease-in-out;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.form-submit:hover {
+  border: 1px solid rgb(48, 98, 192);
+}
+#Remember {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-left: 0;
+}
+#Forgot {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: black;
+  transition: 0.25s ease-in-out;
+}
+
+#Forgot:hover {
+  color: red;
+}
