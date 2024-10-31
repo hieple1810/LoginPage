@@ -15,33 +15,35 @@ body {
   max-width: 400px;
   background: white;
   flex-grow: 1;
-  padding: 30vh 30vh;
+  padding: 40px;
+  border-radius: 8px;
 }
 .form-heading {
   font-size: 25px;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .form-group {
-  border-bottom: 1px solid #fff;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
+  display: block;
 }
 .form-input {
+  width: 100%;
   background: rgb(238, 238, 238);
   border: 0;
   border-radius: 3px;
   padding: 6px 10px;
   padding-right: 30px;
   margin-top: 5px;
+  box-sizing: border-box;
 }
 .eye i {
   position: absolute;
-  right: 160px;
+  right: 10px;
   top: 70%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -50,12 +52,12 @@ body {
   background: black;
   color: white;
   border: 1px solid white;
-  width: 40%;
-  padding: 7px 10px;
+  width: 60%;
+  padding: 10px;
   border-radius: 15px;
   transition: 0.25s ease-in-out;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 20px auto;
+  display: block;
   font-size: 12px;
 }
 .form-submit:hover {
@@ -65,12 +67,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin-left: 0;
+  margin-bottom: 20px;
 }
 #Forgot {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: black;
   transition: 0.25s ease-in-out;
+  margin-top: 20px;
+  display: block;
 }
 
 #Forgot:hover {
